@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="15dp"
+    android:background="@drawable/pizza_item_bottom_border"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/pizzaNameTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="15dp"
+        android:text="Pizza Name"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/removeFavoriteButton"
+        android:layout_width="wrap_content"
+        android:padding="15dp"
+        android:background="#00FF4444"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_remove_order"
+        android:contentDescription="Remove Favorite" />
+</LinearLayout>

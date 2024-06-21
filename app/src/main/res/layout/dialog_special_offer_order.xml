@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_view_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Size"
+        android:textAppearance="?attr/textAppearanceBody1" />
+
+    <TextView
+        android:id="@+id/text_view_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Price"
+        android:textAppearance="?attr/textAppearanceBody1" />
+
+    <EditText
+        android:id="@+id/edit_text_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Quantity"
+        android:inputType="number"
+        android:textAppearance="?attr/textAppearanceBody1" />
+
+    <Button
+        android:id="@+id/btn_submit_order"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Submit Order"
+        android:textSize="18sp"
+        android:backgroundTint="@color/shadow"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
